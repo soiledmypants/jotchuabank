@@ -11,9 +11,9 @@ export const SITE = {
     "Buy $JOTCHUABANK, become part of the bank.\n\nEvery transaction contributes to the treasury, and treasury fees are used to acquire and airdrop $JOTCHUA back to holders.\n\nHold the bank. Earn the dog.\n\nTwo communities. One ecosystem. A win-win.",
 
   // ---- LINKS -------------------------------------------------
-  twitter: "https://x.com/yourhandle",        // <<< SWAP: your X / Twitter
-  ca: "PASTE_SOLANA_CA_HERE",                  // <<< SWAP: Solana mint address
-  pumpfun: "https://pump.fun/coin/PASTE_CA_HERE", // <<< SWAP: pump.fun coin URL
+  twitter: "https://x.com/EasyDeploys/status/2064765548316017040?s=20",
+  ca: "FpZSW4pJ4ivb3TicxEnPCbgJh91WyMiFft8CD3f6pump",
+  pumpfun: "https://pump.fun/coin/FpZSW4pJ4ivb3TicxEnPCbgJh91WyMiFft8CD3f6pump",
 
   // ---- BACKGROUND PHOTO -------------------------------------
   // Put your puppy photo at /public/background.png
