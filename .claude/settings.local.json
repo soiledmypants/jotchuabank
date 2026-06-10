@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\rigby\\\\Downloads\\\\jotchuabank\" -Recurse -Force)",
+      "Bash(Select-Object FullName)",
+      "PowerShell(head -200)",
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\rigby\\\\Downloads\\\\jotchuabank\" -Recurse -Depth 2 | Where-Object { -not $_.FullName.Contains\\(\"node_modules\"\\) -and -not $_.FullName.Contains\\(\".next\"\\) } | Select-Object FullName | Sort-Object FullName)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(ls \"c:\\\\Users\\\\rigby\\\\Downloads\\\\\" | sort -t' ' -k6 -r | head -20 2>&1; ls \"c:\\\\Users\\\\rigby\\\\AppData\\\\Local\\\\Temp\\\\\" 2>&1 | grep -i \"\\\\.png\\\\|\\\\.jpg\\\\|\\\\.jpeg\" | head -10)",
+      "Read(//c/Users/rigby/**)",
+      "Bash(Get-ChildItem \"c:\\\\Users\\\\rigby\\\\Downloads\\\\\" | Sort-Object LastWriteTime -Descending | Select-Object -First 15 | Format-Table Name, LastWriteTime)"
+    ]
+  }
+}
