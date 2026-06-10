@@ -124,6 +124,9 @@ function EventRow({ event }: { event: StreamEvent }) {
 
 export default function AirdropTransactions() {
   const { events, connected } = useAirdropStream(20);
+  const visibleEvents = events.filter(
+    (ev) => (ev.data as { status: string }).status !== "failed"
+  );
 
   return (
     <section className="section" id="feed">
@@ -153,20 +156,20 @@ export default function AirdropTransactions() {
               </tr>
             </thead>
             <tbody>
-              {events.length === 0 ? (
+              {visibleEvents.length === 0 ? (
                 <tr>
                   <td colSpan={4} style={{ textAlign: "center", opacity: 0.5, padding: "24px 0" }}>
                     Waiting for transactions…
                   </td>
                 </tr>
               ) : (
-                events.map((ev) => <EventRow key={ev.id} event={ev} />)
+                visibleEvents.map((ev) => <EventRow key={ev.id} event={ev} />)
               )}
             </tbody>
           </table>
 
           <div className="receipt__foot">
-            <span>Receipt count: {events.length}</span>
+            <span>Receipt count: {visibleEvents.length}</span>
             <span>★ Thank you for banking with $JOTCHUABANK ★</span>
           </div>
         </div>
