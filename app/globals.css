@@ -95,14 +95,12 @@ a { color: inherit; text-decoration: none; }
 
 .note {
   position: relative;
-  border: none;
-  padding: clamp(26px, 5vw, 58px);
-  background: linear-gradient(100deg,
-    rgba(8, 7, 5, 0.70) 0%,
-    rgba(8, 7, 5, 0.70) 36%,
-    rgba(8, 7, 5, 0.0) 54%);
-  backdrop-filter: none;
-  -webkit-backdrop-filter: none;
+  max-width: 660px;
+  padding: clamp(26px, 5vw, 52px);
+  background: rgba(4, 8, 4, 0.82);
+  border-left: 4px solid var(--mint);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
 }
 .note__corner {
   position: absolute;

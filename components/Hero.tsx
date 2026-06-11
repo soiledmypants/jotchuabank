@@ -53,9 +53,8 @@ export default function Hero() {
             </text>
           </svg>
 
-          <p className="eyebrow">World Cup Bank · Solana · Built on Trust. Driven by You.</p>
           <h1 className="title">
-          
+            <span className="dollar">$</span>WORLDCUPBANK
           </h1>
           <p className="subtitle">{SITE.subtitle}</p>
           <p className="lede">{SITE.lede}</p>
