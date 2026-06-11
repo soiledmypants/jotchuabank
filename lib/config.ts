@@ -12,8 +12,8 @@ export const SITE = {
 
   // ---- LINKS -------------------------------------------------
   twitter: "https://x.com/WorldCupBankFun",
-  ca: "6mR7a4oowNrQCW5KJNToyvQFgSakPwcrYH3k1B4E4DeD",
-  pumpfun: "https://pump.fun/coin/6mR7a4oowNrQCW5KJNToyvQFgSakPwcrYH3k1B4E4DeD",
+  ca: "Esk3ixoQZ5eBgDupTXbBYUHFuDGQbCE66Dw7WgQMpump",
+  pumpfun: "https://pump.fun/coin/Esk3ixoQZ5eBgDupTXbBYUHFuDGQbCE66Dw7WgQMpump",
 
   // ---- BACKGROUND PHOTO -------------------------------------
   // Put your puppy photo at /public/background.png
@@ -34,7 +34,7 @@ export const SITE = {
 
 export const AIRDROP = {
   // The $WORLDCUPBANK token mint (the coin people must hold)
-  mainTokenMint: process.env.NEXT_PUBLIC_MAIN_TOKEN_MINT ?? "6mR7a4oowNrQCW5KJNToyvQFgSakPwcrYH3k1B4E4DeD",
+  mainTokenMint: process.env.NEXT_PUBLIC_MAIN_TOKEN_MINT ?? "Esk3ixoQZ5eBgDupTXbBYUHFuDGQbCE66Dw7WgQMpump",
 
   // The reward token being airdropped (the other coin you buy with fees)
   rewardTokenMint: process.env.NEXT_PUBLIC_REWARD_TOKEN_MINT ?? "PASTE_REWARD_TOKEN_MINT_HERE",
