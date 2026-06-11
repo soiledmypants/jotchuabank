@@ -19,7 +19,7 @@ export const SITE = {
   // Put your puppy photo at /public/background.png
   // (or change this path). It loads on top of a warm fallback,
   // so the page never looks broken if the file is missing.
-  backgroundImage: "/background.png",          // <<< SWAP if you rename it
+  backgroundImage: "/background.webp",         // WebP — 94% smaller than the original PNG
 
   // ---- EXPLORER ---------------------------------------------
   // Used to build the per-transaction "view" link.
