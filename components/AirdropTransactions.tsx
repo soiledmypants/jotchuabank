@@ -132,7 +132,7 @@ export default function AirdropTransactions() {
     <section className="section" id="feed">
       <div className="wrap">
         <div className="kicker">
-          <h2>$JOTCHUABANK AIRDROPS</h2>
+          <h2>$WORLDCUPBANK AIRDROPS</h2>
           <span className="rule" />
           <span className="tag">Deposit receipts</span>
         </div>
@@ -170,7 +170,7 @@ export default function AirdropTransactions() {
 
           <div className="receipt__foot">
             <span>Receipt count: {visibleEvents.length}</span>
-            <span>★ Thank you for banking with $JOTCHUABANK ★</span>
+            <span>★ Thank you for banking with $WORLDCUPBANK ⚽ ★</span>
           </div>
         </div>
       </div>

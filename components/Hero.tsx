@@ -26,31 +26,34 @@ export default function Hero() {
             className="seal"
             viewBox="0 0 120 120"
             role="img"
-            aria-label="USDC certified Solana seal"
+            aria-label="World Cup Bank Solana seal"
           >
-            <circle cx="60" cy="60" r="56" fill="none" stroke="#c5362b" strokeWidth="3" />
-            <circle cx="60" cy="60" r="44" fill="none" stroke="#c5362b" strokeWidth="1.5" />
+            <circle cx="60" cy="60" r="56" fill="none" stroke="#c9a227" strokeWidth="3" />
+            <circle cx="60" cy="60" r="44" fill="none" stroke="#c9a227" strokeWidth="1.5" />
             <path id="sealtop" d="M60 18 a42 42 0 0 1 0 84 a42 42 0 0 1 0 -84" fill="none" />
             <text
-              fill="#c5362b"
+              fill="#c9a227"
               fontFamily="var(--font-mono)"
               fontWeight="700"
-              fontSize="10.5"
+              fontSize="9.5"
               letterSpacing="2"
             >
               <textPath href="#sealtop" startOffset="2%">
-                ★ USDC CERTIFIED ★ SOLANA ★ DEPOSIT OK ★
+                ★ AIRDROP LIVE ★ SOLANA ★ BUY $WCB ★
               </textPath>
             </text>
-            <text x="60" y="56" textAnchor="middle" fill="#c5362b" fontFamily="var(--font-display)" fontSize="20">
-              JOTCHUA
+            <text x="60" y="52" textAnchor="middle" fill="#c9a227" fontFamily="var(--font-display)" fontSize="18">
+              WORLD
             </text>
-            <text x="60" y="74" textAnchor="middle" fill="#c5362b" fontFamily="var(--font-mono)" fontWeight="700" fontSize="9" letterSpacing="2">
+            <text x="60" y="68" textAnchor="middle" fill="#c9a227" fontFamily="var(--font-display)" fontSize="18">
+              CUP
+            </text>
+            <text x="60" y="80" textAnchor="middle" fill="#c9a227" fontFamily="var(--font-mono)" fontWeight="700" fontSize="9" letterSpacing="2">
               EST. 2026
             </text>
           </svg>
 
-          <p className="eyebrow">Federal reserve of good boys · solana</p>
+          <p className="eyebrow">World Cup Bank · Solana · Built on Trust. Driven by You.</p>
           <h1 className="title">
           
           </h1>
@@ -59,10 +62,10 @@ export default function Hero() {
 
           <div className="hero__cta">
             <a className="btn btn--mint" href="#open">
-              Open an account ↓
+              Join the Squad ↓
             </a>
             <a className="btn btn--ghost" href="#feed">
-              See the ledger
+              See the Ledger ⚽
             </a>
           </div>
         </div>

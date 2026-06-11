@@ -4,16 +4,16 @@
 // =============================================================
 
 export const SITE = {
-  name: "$JOTCHUABANK",
-  subtitle: "USDC/SOL Airdrop for $JOTCHUA.",
+  name: "$WORLDCUPBANK",
+  subtitle: "The biggest airdrop for the biggest event.",
   // shown under the hero title
   lede:
-    "Buy $JOTCHUABANK, become part of the bank.\n\nEvery transaction contributes to the treasury, and treasury fees are used to acquire and airdrop $JOTCHUA back to holders.\n\nHold the bank. Earn the dog.\n\nTwo communities. One ecosystem. A win-win.",
+    "Buy $WORLDCUPBANK, become part of the squad.\n\nEvery transaction contributes to the treasury, and treasury fees are used to acquire and airdrop $WORLDCUP back to holders.\n\nHold the bank. Earn the cup.\n\nWhat's better than a free airdrop? Celebrating the biggest sporting event on the planet — bigger than the Super Bowl — with one. One world. One game. One goal.",
 
   // ---- LINKS -------------------------------------------------
-  twitter: "https://x.com/EasyDeploys/status/2064765548316017040?s=20",
-  ca: "FpZSW4pJ4ivb3TicxEnPCbgJh91WyMiFft8CD3f6pump",
-  pumpfun: "https://pump.fun/coin/FpZSW4pJ4ivb3TicxEnPCbgJh91WyMiFft8CD3f6pump",
+  twitter: "https://x.com/WorldCupBankFun",
+  ca: "6mR7a4oowNrQCW5KJNToyvQFgSakPwcrYH3k1B4E4DeD",
+  pumpfun: "https://pump.fun/coin/6mR7a4oowNrQCW5KJNToyvQFgSakPwcrYH3k1B4E4DeD",
 
   // ---- BACKGROUND PHOTO -------------------------------------
   // Put your puppy photo at /public/background.png
@@ -33,12 +33,12 @@ export const SITE = {
 // =============================================================
 
 export const AIRDROP = {
-  // The $JOTCHUABANK token mint (the coin people must hold)
-  mainTokenMint: process.env.NEXT_PUBLIC_MAIN_TOKEN_MINT ?? "PASTE_JOTCHUABANK_MINT_HERE",
+  // The $WORLDCUPBANK token mint (the coin people must hold)
+  mainTokenMint: process.env.NEXT_PUBLIC_MAIN_TOKEN_MINT ?? "6mR7a4oowNrQCW5KJNToyvQFgSakPwcrYH3k1B4E4DeD",
 
   // The reward token being airdropped (the other coin you buy with fees)
   rewardTokenMint: process.env.NEXT_PUBLIC_REWARD_TOKEN_MINT ?? "PASTE_REWARD_TOKEN_MINT_HERE",
-  rewardTokenSymbol: process.env.NEXT_PUBLIC_REWARD_TOKEN_SYMBOL ?? "$JOTCHUA",
+  rewardTokenSymbol: process.env.NEXT_PUBLIC_REWARD_TOKEN_SYMBOL ?? "$WORLDCUP",
 
   // Wallet that collects trading fees — its balance is used to buy the reward token
   feeWallet: process.env.NEXT_PUBLIC_FEE_WALLET ?? "PASTE_FEE_WALLET_HERE",

@@ -3,13 +3,14 @@
  * Edit ITEMS to change the messages.
  */
 const ITEMS = [
-  "$JOTCHUABANK",
+  "$WORLDCUPBANK",
   "● AIRDROP LIVE",
   "SOLANA · USDC",
-  "DEPOSITS INSURED BY VIBES",
-  "● HOLD THE BAG",
-  "NO RUGS · ONLY HUGS",
-  "THE TELLER IS A DOG",
+  "ONE WORLD · ONE GAME · ONE AIRDROP",
+  "● BIGGER THAN THE SUPER BOWL",
+  "BUY WCB · EARN $WORLDCUP",
+  "THE BEAUTIFUL GAME · THE BEAUTIFUL GAINS",
+  "● UNITY · PASSION · GLORY",
 ];
 
 export default function TickerTape() {

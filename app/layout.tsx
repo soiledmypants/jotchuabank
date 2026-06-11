@@ -9,8 +9,8 @@ const mono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono" });
 const inter = Inter({ subsets: ["latin"], variable: "--font-body" });
 
 export const metadata: Metadata = {
-  title: "$JOTCHUABANK — Solana USDC airdrop bank",
-  description: "Open an account by holding the bag. The Solana USDC airdrop bank where the teller is a dog.",
+  title: "$WORLDCUPBANK — Solana Airdrop for the World Cup",
+  description: "Buy $WORLDCUPBANK on Solana, get airdropped $WORLDCUP. The biggest sporting event deserves the biggest airdrop. One world. One game. One goal.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

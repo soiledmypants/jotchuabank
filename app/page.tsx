@@ -14,11 +14,10 @@ export default function Page() {
       <footer className="foot">
         <div className="wrap">
           <div className="mark">
-            <span className="dollar">$</span>JOTCHUABANK
+            <span className="dollar">$</span>WORLDCUPBANK
           </div>
           <p>
-            Deposits insured by Jotchua. $JOTCHUABANK on SOL/USDC — ape in, tip
-            your teller, pet JOTCHUA.
+            The World Cup Bank — buy $WCB on Solana, get airdropped $WORLDCUP. The biggest sporting event deserves the biggest airdrop. Unity. Passion. Glory.
           </p>
         </div>
       </footer>

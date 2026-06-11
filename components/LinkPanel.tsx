@@ -10,7 +10,7 @@ export default function LinkPanel() {
     <section className="section section--green" id="open">
       <div className="wrap">
         <div className="kicker">
-          <h2>Open an account</h2>
+          <h2>Join the Squad</h2>
           <span className="rule" />
           <span className="tag">Teller window</span>
         </div>
@@ -18,22 +18,22 @@ export default function LinkPanel() {
         <div className="cheque">
           <div className="cheque__head">
             <div className="cheque__bankname">
-              Jotchua National Bank
-              <small>Member F.D.I.C — Federally Doubtful, Block-Chain Certified</small>
+              World Cup Bank
+              <small>Member F.I.F.A — Financially Insured For Airdrops · Block-Chain Certified</small>
             </div>
             <div className="cheque__no">
-              CHEQUE Nº <b>000-001</b>
+              CHEQUE Nº <b>WCB-001</b>
               <br />
-              PAY: BAG HOLDERS
+              PAY: THE HOLDERS
               <br />
-              AMOUNT: ∞ USDC
+              AMOUNT: ∞ $WORLDCUP
             </div>
           </div>
 
           <div className="cheque__body">
             {/* CONTRACT ADDRESS + COPY */}
             <div className="field">
-              <span className="field__label">CA — $JOTCHUABANK ONLY ON PUMP.FUN</span>
+              <span className="field__label">CA — $WORLDCUPBANK ONLY ON PUMP.FUN</span>
               <div className="ca">
                 <code>{SITE.ca}</code>
                 <CopyCAButton value={SITE.ca} />
@@ -55,8 +55,8 @@ export default function LinkPanel() {
           </div>
 
           <div className="micr">
-            <span>⑆ 0210 0002 1⑆ $1JOTCHUA ⑈ 4206 9⑈</span>
-            <span className="sig">— $JOTCHUABANK 🐾</span>
+            <span>⑆ 2026 0006 1⑆ $WCB ⑈ 4206 9⑈</span>
+            <span className="sig">— $WORLDCUPBANK ⚽</span>
           </div>
         </div>
       </div>
